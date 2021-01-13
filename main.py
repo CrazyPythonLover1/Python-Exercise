@@ -42,3 +42,5 @@ for row in picture:
     else:
       print(" ", end="")
   print('')
+
+  ## Scope, List method, set, dictionary, for loop, while loop, if else, function.
