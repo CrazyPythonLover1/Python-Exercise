@@ -18,6 +18,27 @@ if is_Friend and is_User:
 # enumerate
 
 for i, char in enumerate(list(range(100))):
-  print(i,char)
+  # print(i,char)
   if char == 50:
     print(f"the index of 50 {i}")
+
+
+
+# DRAW A PICTURE 
+
+picture = [
+  [0,0,0,1,0,0,0],
+  [0,0,1,1,1,0,0],
+  [0,1,1,1,1,1,0],
+  [1,1,1,1,1,1,1],
+  [0,0,0,1,0,0,0],
+  [0,0,0,1,0,0,0],
+]
+
+for row in picture:
+  for pixel in row:
+    if pixel == 1:
+      print("*", end="")
+    else:
+      print(" ", end="")
+  print('')
