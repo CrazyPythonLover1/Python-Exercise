@@ -1,19 +1,22 @@
-# Decorator
+# Decorator Pattern 
 
 def my_decorator(func):
-    def wrap_func():
+    def wrap_func(*args, **kwargs):
         print("*****************")
-        func()
+        func(*args, **kwargs)
         print("*****************")
     return wrap_func
 
 @my_decorator
-def hello():
-    print("hellooooooooo")
+def hello(greeting, name, emoji=':)'):
+    print(greeting , emoji, name, )
 
 @my_decorator
 def bye():
     print("byeeeeee")
 
-print(bye())
-print(hello())
+# hello2 = my_decorator(hello)
+# print(hello2("Hi "))
+
+# print(bye())
+hello("Hi ", "Mainul Islam")
