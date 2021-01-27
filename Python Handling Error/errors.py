@@ -4,6 +4,8 @@ while True:
     try:
         age = int(input('What is your age? '))
         10/age
+        # raise ValueError('hey cut it out')
+        # raise Exception('hey cut it out')
     except ValueError:
         print('Please enter a number')
         continue # Trying again from the top
