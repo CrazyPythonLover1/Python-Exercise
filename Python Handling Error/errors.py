@@ -14,7 +14,7 @@ while True:
         break # Getting out from the loop but finally block will run
     else:
         print('Thank you')
-        break # Getting out from the loop but finally block will run
+        break # Getting ou t from the loop but finally block will run
     finally:
         print('ok, I am finally done')
     print('can you hear me?')

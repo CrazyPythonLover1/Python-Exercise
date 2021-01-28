@@ -2,7 +2,7 @@
 
 ### Python Performance Decorator in Python Decorators folder
 
-> you can check how long it took :)
+> you can check your code how long it took :)
 
 ### Python Generator
 
